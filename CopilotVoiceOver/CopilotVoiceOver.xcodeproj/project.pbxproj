@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94ED44C329E111AE008DFE1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ED44C229E111AE008DFE1E /* AppDelegate.swift */; };
+		94ED44C529E111AE008DFE1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ED44C429E111AE008DFE1E /* SceneDelegate.swift */; };
+		94ED44C729E111AE008DFE1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ED44C629E111AE008DFE1E /* ViewController.swift */; };
+		94ED44CA29E111AE008DFE1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94ED44C829E111AE008DFE1E /* Main.storyboard */; };
+		94ED44CC29E111AF008DFE1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94ED44CB29E111AF008DFE1E /* Assets.xcassets */; };
+		94ED44CF29E111AF008DFE1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94ED44CD29E111AF008DFE1E /* LaunchScreen.storyboard */; };
+		94ED44DA29E111AF008DFE1E /* CopilotVoiceOverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ED44D929E111AF008DFE1E /* CopilotVoiceOverTests.swift */; };
+		94ED44E429E111AF008DFE1E /* CopilotVoiceOverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ED44E329E111AF008DFE1E /* CopilotVoiceOverUITests.swift */; };
+		94ED44E629E111AF008DFE1E /* CopilotVoiceOverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ED44E529E111AF008DFE1E /* CopilotVoiceOverUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94ED44D629E111AF008DFE1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94ED44B729E111AE008DFE1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94ED44BE29E111AE008DFE1E;
+			remoteInfo = CopilotVoiceOver;
+		};
+		94ED44E029E111AF008DFE1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94ED44B729E111AE008DFE1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94ED44BE29E111AE008DFE1E;
+			remoteInfo = CopilotVoiceOver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94ED44BF29E111AE008DFE1E /* CopilotVoiceOver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CopilotVoiceOver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94ED44C229E111AE008DFE1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94ED44C429E111AE008DFE1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		94ED44C629E111AE008DFE1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94ED44C929E111AE008DFE1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94ED44CB29E111AF008DFE1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94ED44CE29E111AF008DFE1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94ED44D029E111AF008DFE1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94ED44D529E111AF008DFE1E /* CopilotVoiceOverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopilotVoiceOverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94ED44D929E111AF008DFE1E /* CopilotVoiceOverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopilotVoiceOverTests.swift; sourceTree = "<group>"; };
+		94ED44DF29E111AF008DFE1E /* CopilotVoiceOverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopilotVoiceOverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94ED44E329E111AF008DFE1E /* CopilotVoiceOverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopilotVoiceOverUITests.swift; sourceTree = "<group>"; };
+		94ED44E529E111AF008DFE1E /* CopilotVoiceOverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopilotVoiceOverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94ED44BC29E111AE008DFE1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94ED44D229E111AF008DFE1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94ED44DC29E111AF008DFE1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94ED44B629E111AE008DFE1E = {
+			isa = PBXGroup;
+			children = (
+				94ED44C129E111AE008DFE1E /* CopilotVoiceOver */,
+				94ED44D829E111AF008DFE1E /* CopilotVoiceOverTests */,
+				94ED44E229E111AF008DFE1E /* CopilotVoiceOverUITests */,
+				94ED44C029E111AE008DFE1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94ED44C029E111AE008DFE1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94ED44BF29E111AE008DFE1E /* CopilotVoiceOver.app */,
+				94ED44D529E111AF008DFE1E /* CopilotVoiceOverTests.xctest */,
+				94ED44DF29E111AF008DFE1E /* CopilotVoiceOverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94ED44C129E111AE008DFE1E /* CopilotVoiceOver */ = {
+			isa = PBXGroup;
+			children = (
+				94ED44C229E111AE008DFE1E /* AppDelegate.swift */,
+				94ED44C429E111AE008DFE1E /* SceneDelegate.swift */,
+				94ED44C629E111AE008DFE1E /* ViewController.swift */,
+				94ED44C829E111AE008DFE1E /* Main.storyboard */,
+				94ED44CB29E111AF008DFE1E /* Assets.xcassets */,
+				94ED44CD29E111AF008DFE1E /* LaunchScreen.storyboard */,
+				94ED44D029E111AF008DFE1E /* Info.plist */,
+			);
+			path = CopilotVoiceOver;
+			sourceTree = "<group>";
+		};
+		94ED44D829E111AF008DFE1E /* CopilotVoiceOverTests */ = {
+			isa = PBXGroup;
+			children = (
+				94ED44D929E111AF008DFE1E /* CopilotVoiceOverTests.swift */,
+			);
+			path = CopilotVoiceOverTests;
+			sourceTree = "<group>";
+		};
+		94ED44E229E111AF008DFE1E /* CopilotVoiceOverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94ED44E329E111AF008DFE1E /* CopilotVoiceOverUITests.swift */,
+				94ED44E529E111AF008DFE1E /* CopilotVoiceOverUITestsLaunchTests.swift */,
+			);
+			path = CopilotVoiceOverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94ED44BE29E111AE008DFE1E /* CopilotVoiceOver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94ED44E929E111AF008DFE1E /* Build configuration list for PBXNativeTarget "CopilotVoiceOver" */;
+			buildPhases = (
+				94ED44BB29E111AE008DFE1E /* Sources */,
+				94ED44BC29E111AE008DFE1E /* Frameworks */,
+				94ED44BD29E111AE008DFE1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CopilotVoiceOver;
+			productName = CopilotVoiceOver;
+			productReference = 94ED44BF29E111AE008DFE1E /* CopilotVoiceOver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94ED44D429E111AF008DFE1E /* CopilotVoiceOverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94ED44EC29E111AF008DFE1E /* Build configuration list for PBXNativeTarget "CopilotVoiceOverTests" */;
+			buildPhases = (
+				94ED44D129E111AF008DFE1E /* Sources */,
+				94ED44D229E111AF008DFE1E /* Frameworks */,
+				94ED44D329E111AF008DFE1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94ED44D729E111AF008DFE1E /* PBXTargetDependency */,
+			);
+			name = CopilotVoiceOverTests;
+			productName = CopilotVoiceOverTests;
+			productReference = 94ED44D529E111AF008DFE1E /* CopilotVoiceOverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94ED44DE29E111AF008DFE1E /* CopilotVoiceOverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94ED44EF29E111AF008DFE1E /* Build configuration list for PBXNativeTarget "CopilotVoiceOverUITests" */;
+			buildPhases = (
+				94ED44DB29E111AF008DFE1E /* Sources */,
+				94ED44DC29E111AF008DFE1E /* Frameworks */,
+				94ED44DD29E111AF008DFE1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94ED44E129E111AF008DFE1E /* PBXTargetDependency */,
+			);
+			name = CopilotVoiceOverUITests;
+			productName = CopilotVoiceOverUITests;
+			productReference = 94ED44DF29E111AF008DFE1E /* CopilotVoiceOverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94ED44B729E111AE008DFE1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					94ED44BE29E111AE008DFE1E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					94ED44D429E111AF008DFE1E = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 94ED44BE29E111AE008DFE1E;
+					};
+					94ED44DE29E111AF008DFE1E = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 94ED44BE29E111AE008DFE1E;
+					};
+				};
+			};
+			buildConfigurationList = 94ED44BA29E111AE008DFE1E /* Build configuration list for PBXProject "CopilotVoiceOver" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94ED44B629E111AE008DFE1E;
+			productRefGroup = 94ED44C029E111AE008DFE1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94ED44BE29E111AE008DFE1E /* CopilotVoiceOver */,
+				94ED44D429E111AF008DFE1E /* CopilotVoiceOverTests */,
+				94ED44DE29E111AF008DFE1E /* CopilotVoiceOverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94ED44BD29E111AE008DFE1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94ED44CF29E111AF008DFE1E /* LaunchScreen.storyboard in Resources */,
+				94ED44CC29E111AF008DFE1E /* Assets.xcassets in Resources */,
+				94ED44CA29E111AE008DFE1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94ED44D329E111AF008DFE1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94ED44DD29E111AF008DFE1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94ED44BB29E111AE008DFE1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94ED44C729E111AE008DFE1E /* ViewController.swift in Sources */,
+				94ED44C329E111AE008DFE1E /* AppDelegate.swift in Sources */,
+				94ED44C529E111AE008DFE1E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94ED44D129E111AF008DFE1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94ED44DA29E111AF008DFE1E /* CopilotVoiceOverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94ED44DB29E111AF008DFE1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94ED44E629E111AF008DFE1E /* CopilotVoiceOverUITestsLaunchTests.swift in Sources */,
+				94ED44E429E111AF008DFE1E /* CopilotVoiceOverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94ED44D729E111AF008DFE1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94ED44BE29E111AE008DFE1E /* CopilotVoiceOver */;
+			targetProxy = 94ED44D629E111AF008DFE1E /* PBXContainerItemProxy */;
+		};
+		94ED44E129E111AF008DFE1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94ED44BE29E111AE008DFE1E /* CopilotVoiceOver */;
+			targetProxy = 94ED44E029E111AF008DFE1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94ED44C829E111AE008DFE1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94ED44C929E111AE008DFE1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94ED44CD29E111AF008DFE1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94ED44CE29E111AF008DFE1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94ED44E729E111AF008DFE1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94ED44E829E111AF008DFE1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94ED44EA29E111AF008DFE1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44M9LP3PVT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CopilotVoiceOver/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ai.CopilotVoiceOver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94ED44EB29E111AF008DFE1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44M9LP3PVT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CopilotVoiceOver/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ai.CopilotVoiceOver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94ED44ED29E111AF008DFE1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44M9LP3PVT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ai.CopilotVoiceOverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CopilotVoiceOver.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CopilotVoiceOver";
+			};
+			name = Debug;
+		};
+		94ED44EE29E111AF008DFE1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44M9LP3PVT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ai.CopilotVoiceOverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CopilotVoiceOver.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CopilotVoiceOver";
+			};
+			name = Release;
+		};
+		94ED44F029E111AF008DFE1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44M9LP3PVT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ai.CopilotVoiceOverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CopilotVoiceOver;
+			};
+			name = Debug;
+		};
+		94ED44F129E111AF008DFE1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44M9LP3PVT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ai.CopilotVoiceOverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CopilotVoiceOver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94ED44BA29E111AE008DFE1E /* Build configuration list for PBXProject "CopilotVoiceOver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94ED44E729E111AF008DFE1E /* Debug */,
+				94ED44E829E111AF008DFE1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94ED44E929E111AF008DFE1E /* Build configuration list for PBXNativeTarget "CopilotVoiceOver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94ED44EA29E111AF008DFE1E /* Debug */,
+				94ED44EB29E111AF008DFE1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94ED44EC29E111AF008DFE1E /* Build configuration list for PBXNativeTarget "CopilotVoiceOverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94ED44ED29E111AF008DFE1E /* Debug */,
+				94ED44EE29E111AF008DFE1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94ED44EF29E111AF008DFE1E /* Build configuration list for PBXNativeTarget "CopilotVoiceOverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94ED44F029E111AF008DFE1E /* Debug */,
+				94ED44F129E111AF008DFE1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94ED44B729E111AE008DFE1E /* Project object */;
+}
